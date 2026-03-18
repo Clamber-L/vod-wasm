@@ -1,0 +1,14 @@
+{
+  "name": "wasm-vod-uploader",
+  "version": "1.0.0",
+  "description": "阿里云 VOD 视频上传，基于 WASM 实现 OSS 分片直传",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "pkg/"
+  ],
+  "scripts": {
+    "build": "wasm-pack build --target web --out-dir pkg --release"
+  }
+}
