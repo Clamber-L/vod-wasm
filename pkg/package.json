@@ -1,14 +1,14 @@
 {
   "name": "wasm-vod-uploader",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.3.6",
   "files": [
     "wasm_vod_uploader_bg.wasm",
     "wasm_vod_uploader.js",
     "wasm_vod_uploader.d.ts",
     "index.js"
   ],
-  "main": "index.js",
+  "main": "wasm_vod_uploader.js",
   "types": "wasm_vod_uploader.d.ts",
   "sideEffects": [
     "./snippets/*"
